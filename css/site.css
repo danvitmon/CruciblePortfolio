@@ -12,6 +12,7 @@
     --dm-dark-color: #212121;
     --dm-light-color: #deeefb;
     --dm-background-color: rgba(250, 250, 250, .8);
+    --dm-background2-color: #fbfbfb;
 
     /* nav bar colors */
     --dm-nav-bg-color: var(--dm-dark-color);
@@ -262,8 +263,8 @@ footer {
 
 .footer-bg-cta {
     background: linear-gradient(to bottom, 
-        white, 
-        white 50%,
+        var(--dm-background2-color), 
+        var(--dm-background2-color) 50%,
         var(--dm-dark-color) 50%,
         var(--dm-dark-color));
 }
