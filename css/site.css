@@ -189,6 +189,14 @@ footer {
     background-color: var(--dm-primary-color);
 }
 
+.section-page:nth-last-child(2) {
+    background-color: var(--dm-primary-color);
+}
+
+.section-page:last-child {
+    background-color: var(--dm-light-color);
+}
+
 .profilePic {
     border-radius: 20px;
     border-style: solid;
@@ -241,8 +249,27 @@ footer {
     color: var(--dm-highlight-color);
 }
 
-footer {
-    background: var(--dm-dark-color);
+.footer-cta {
+    background-color: var(--dm-secondary-color);
+    border-radius: 10px;
+    width: 75%;
+}
+
+.footer-message {
+    color: var(--dm-dark-color);
+    letter-spacing: .1rem;
+}
+
+.footer-bg-cta {
+    background: linear-gradient(to bottom, 
+        white, 
+        white 50%,
+        var(--dm-dark-color) 50%,
+        var(--dm-dark-color));
+}
+
+.footer-main {
+    background-color: var(--dm-dark-color);
 }
 
 /* END: Footer */
