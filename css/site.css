@@ -114,7 +114,7 @@ footer {
 .mainHeader {
     height: 200px;
     margin-top: 105px;
-    background-image: url(/img/background_996_576.png);
+    background-image: url(/img/background_996_2560.png);
     background-repeat: no-repeat;
     background-position: right top;
     background-color: var(--dm-light-color);
@@ -123,7 +123,7 @@ footer {
 .mainHeader-cover {
     margin-top: 105px;
     height: 400px;
-    background-image: url(/img/background_996_2560.png);
+    background-image: url(/img/background_996_576MOBILE.png);
     background-repeat: no-repeat;
     background-position: top left;
     background-size: cover;
@@ -280,7 +280,7 @@ footer {
 /***************** MEDIA QUERIES ****************/
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-    .mainHeader {
+    .mainHeader-cover {
         background-image: url(/img/background_996_767.png);
     }
 
@@ -289,9 +289,9 @@ footer {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    .mainHeader {
+    .mainHeader-cover {
         background-image: url(/img/background_996_992.png);
-        height: 300px;
+        height: 400px;
     }
 
     .mainTitle {
@@ -317,7 +317,7 @@ footer {
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
-    .mainHeader {
+    .mainHeader-cover {
         background-image: url(/img/background_996_1200.png);
         height: 400px;
     }
@@ -335,9 +335,9 @@ footer {
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-    .mainHeader {
+    .mainHeader-cover {
         background-image: url(/img/background_996_2560.png);
-        height: 500px;
+        height: 400px;
     }
 
     .mainTitle {
