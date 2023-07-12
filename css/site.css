@@ -178,8 +178,8 @@ footer {
 
 /* BEGIN: Main elements */
 .section-page {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .section-page:nth-child(even) {
@@ -215,7 +215,7 @@ footer {
     justify-content: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: var(--dm-dark-color);
+    background-color: var(--dm-background-color);
     color: var(--dm-light-color);
     text-align: center;
     font-size: 1rem;
@@ -225,6 +225,8 @@ footer {
 .section-cta span {
     padding-left: .9rem;
     padding-right: .9rem;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
 }
 
 .cta-arrow {
